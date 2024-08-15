@@ -37,6 +37,12 @@ int main()
 }
 ```
 ## Output
+![Screenshot 2024-08-16 010507](https://github.com/user-attachments/assets/9d43a879-87f0-4529-b793-67340c3a8a80)
+
+## Conclusion
+This project demonstrates how to use bitwise operators in C++. Understanding these operators is essential for low-level data manipulation and optimization in programming.
+
+
 
 
 
