@@ -16,7 +16,10 @@ Left Shift (<<): Shifts bits to the left.
 Right Shift (>>): Shifts bits to the right
 
 ## Program Codes
+
 ```javascript
+// Nikhil
+// 23070123093
 #include<iostream>
 #include<bitset>
 using namespace std;
@@ -36,6 +39,34 @@ int main()
     return 0;
 }
 ```
+
+```javascript
+// Nikhil
+// 23070123093
+#include <iostream>
+#include <bitset>
+using namespace std;
+
+int main() {
+    int num, set, reset;
+    
+    cout << "Enter the number- ";
+    cin >> num;
+    cout << "Enter the bit position to set (0 to 7): ";
+    cin >> set;
+    cout << "Enter the bit position to reset (0 to 7): ";
+    cin >> reset;
+    cout<<num<<" in binary is "<<bitset<8>(num)<<endl;
+   
+    int num_set = num | (1 << set);
+    cout << "Result after setting bit number " <<set<< " is " << bitset<8>(num_set) << endl;
+    
+    int num_reset = num_set & ~(1 << reset);
+    cout << "Result after resetting bit number " <<reset<< " is " << bitset<8>(num_reset) << endl;
+    return 0;
+}
+```
+
 ## Output
 ![Screenshot 2024-08-16 010507](https://github.com/user-attachments/assets/9d43a879-87f0-4529-b793-67340c3a8a80)
 
